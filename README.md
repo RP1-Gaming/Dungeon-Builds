@@ -1,33 +1,28 @@
 # Dungeon Builds
 
-Windows builds of the Blessed Throne dungeon prototype. Source: [Dungeon-Demo](https://github.com/RP1-Gaming/Dungeon-Demo).
+Windows builds of the Blessed Throne dungeon prototype, and the launcher that keeps them up to date.
 
-**Current build:** Dungeon-Demo commit `3534467`, built 2026-11-13 with Unity 6000.3.7f1.
+## Play
 
-## Download
+1. Download [BlessedThroneLauncher.exe](https://github.com/RP1-Gaming/Dungeon-Builds/raw/main/BlessedThroneLauncher.exe).
+2. Put it in a folder of its own, for example `Documents\Blessed Throne`. It installs the game into a `Game` folder beside itself.
+3. Run it. It downloads the game (about 100 MB the first time), then shows a **Play** button.
 
-Click **Code > Download ZIP** on GitHub and unzip it, or `git clone` this repo. Windows 10 or 11, 64-bit.
+Always start the game through the launcher. Each time it starts it checks for a new build and downloads only the files that changed, so everyone stays on the same version.
 
-## Client
+Windows may show a "Windows protected your PC" warning because the launcher is unsigned; choose **More info > Run anyway**. Windows 10 or 11, 64-bit.
 
-Run `Client\BlessedThrone.exe`.
+In the game, **Host a game** starts a session others can join. To join someone, enter their IP address and click **Join**.
 
-- **Host a game** starts a session on your machine that others can join.
-- To join someone, enter the host's or server's IP address and click **Join**.
+## Run a server
 
-Windows may show a SmartScreen warning because the build is unsigned; choose **More info > Run anyway**.
+Click **Start server** in the launcher. The server has no window of its own; the launcher shows the addresses players can join with, and **Stop server** stops it. The server log is `Game\server.log`.
 
-## Server
-
-Run `Server\start-server.bat` (optionally `start-server.bat PORT`). It runs headless with no window of its own; the log is written to `Server\server.log`.
-
-To stop it, press any key in the start-server window, or run `Server\stop-server.bat`. Closing the window does **not** stop the server.
-
-- The server listens on **UDP port 7777**. Allow it through Windows Firewall when asked.
-- To play over the internet, forward UDP 7777 on the router to the server machine and give players its public IP address.
+- The server uses **UDP port 7777**. Allow it through Windows Firewall when asked.
+- Players on the same network, or on the same Tailscale network, can join straight away using the address shown.
+- To play over the internet without Tailscale, forward UDP 7777 on the router to the server machine and give players its public IP address.
 - Up to 16 players. Players can join at any time.
-
-The `Server` and `Client` folders currently contain the same program; the server is the game run in headless mode.
+- Nothing is saved: restarting the server restarts the dungeon.
 
 ## Controls
 
@@ -39,3 +34,13 @@ The `Server` and `Client` folders currently contain the same program; the server
 | Bow | Hold left mouse to draw, release to fire |
 | Firebolt / Mend / Blink | Q / E / F |
 | Free the mouse | Escape |
+
+## What is in this repo
+
+| Item | Purpose |
+|---|---|
+| `BlessedThroneLauncher.exe` | The launcher |
+| `manifest.json` | The current version and a checksum for every game file; the launcher reads this |
+| `Game/` | The current build |
+
+This repo is filled by a publish script in the source repo; don't edit it by hand.
