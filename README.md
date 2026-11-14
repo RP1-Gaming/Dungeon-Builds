@@ -19,7 +19,9 @@ Windows may show a SmartScreen warning because the build is unsigned; choose **M
 
 ## Server
 
-Run `Server\start-server.bat` (optionally `start-server.bat PORT`). It runs headless with no window of its own; the log is written to `Server\server.log`. Close the console window to stop it.
+Run `Server\start-server.bat` (optionally `start-server.bat PORT`). It runs headless with no window of its own; the log is written to `Server\server.log`.
+
+To stop it, press any key in the start-server window, or run `Server\stop-server.bat`. Closing the window does **not** stop the server.
 
 - The server listens on **UDP port 7777**. Allow it through Windows Firewall when asked.
 - To play over the internet, forward UDP 7777 on the router to the server machine and give players its public IP address.
