@@ -1,9 +1,9 @@
 {
-    "version":  "2026-11-14 00:16 (d8e3bda)",
+    "version":  "2026-11-14 00:21 (7f5f6a2)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
-                     "sha256":  "3faf6b949286a924864bc689f329374be8e247a2ba3fe948f6b6f68aa281a1a4",
-                     "size":  28672
+                     "sha256":  "dc3d8f3e50db91b363bb2e89a59336cfb01d140773068057db0007480aa27e06",
+                     "size":  64512
                  },
     "files":  [
                   {

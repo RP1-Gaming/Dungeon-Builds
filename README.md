@@ -50,6 +50,5 @@ Stop it from Task Manager (end `DungeonDemo.exe`), or with `taskkill /f /im Dung
 | `DungeonDemoLauncher.exe` | The launcher |
 | `manifest.json` | The current version and a checksum for every game file; the launcher reads this |
 | `Game/` | The current build |
-| `BlessedThroneLauncher.exe` | A copy of the launcher under its old name, so launchers downloaded before the rename can update themselves. Safe to delete once nobody uses one. |
 
 This repo is filled by a publish script in the source repo; don't edit it by hand.
