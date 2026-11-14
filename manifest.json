@@ -1,8 +1,8 @@
 {
-    "version":  "2026-11-14 00:54 (ac2a6c5)",
+    "version":  "2026-11-14 01:01 (87ca252)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
-                     "sha256":  "dc3d8f3e50db91b363bb2e89a59336cfb01d140773068057db0007480aa27e06",
+                     "sha256":  "e43b848bce53a727f580e02c570cf288937dfca0cdfeb0105c9494cbb1219b0c",
                      "size":  64512
                  },
     "files":  [
@@ -23,12 +23,12 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/boot.config",
-                      "sha256":  "71dc553a2d72c01bda4a180d7412e0d8aab0087880554f62ffc040078bceeab8",
+                      "sha256":  "08033b4743120a976e9a8d634b214a944117d5cb29b735458cb0150f87d8194d",
                       "size":  156
                   },
                   {
                       "path":  "DungeonDemo_Data/globalgamemanagers",
-                      "sha256":  "25cf904c0fbff8ad0f2a41b5c95512a924af177af9ff12314b8f6a42a36cf467",
+                      "sha256":  "958f0536efe041f42099344c705e8d0863d794662a41888aca95a45993853296",
                       "size":  190116
                   },
                   {
@@ -48,8 +48,8 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/BlessedThrone.dll",
-                      "sha256":  "99fa882b6e7c9e5a7daef75ede0c859be6c32101ceea25a564f9ee1f29d90e1f",
-                      "size":  108544
+                      "sha256":  "6cb6ca475f3dff766ee76b273ce3134d9d1fbc1fef5238710fd35208248efc03",
+                      "size":  109056
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/Mono.Security.dll",
@@ -708,7 +708,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/resources.assets",
-                      "sha256":  "f52a9cafcb40018bed480357977d992e737a132a2b3bdbe589863f6134c3cfb9",
+                      "sha256":  "bba044655b5c43253ab12e922892078acc5592100ee680872819eecceb63e519",
                       "size":  348824
                   },
                   {
