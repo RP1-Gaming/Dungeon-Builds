@@ -20,6 +20,7 @@ One player clicks **Host a game**. Everyone else enters that player's IP address
 - Players on the same network, or on the same Tailscale network, can join straight away.
 - To play over the internet without Tailscale, the host forwards UDP 7777 on their router and gives players their public IP address.
 - Up to 16 players. Players can join at any time.
+- The main menu lists games it finds on your local network; click one to join. A server you have joined once by typing its address (for example over Tailscale) is remembered and listed from then on.
 - Everyone starts in a lobby room. Press R when you are ready; the run starts when everyone is, or when the host presses Enter. The host picks the difficulty there with 1, 2 or 3.
 - Nothing is saved. The host can restart the run from the Esc menu (Restart run, clicked twice).
 
