@@ -20,7 +20,8 @@ One player clicks **Host a game**. Everyone else enters that player's IP address
 - Players on the same network, or on the same Tailscale network, can join straight away.
 - To play over the internet without Tailscale, the host forwards UDP 7777 on their router and gives players their public IP address.
 - Up to 16 players. Players can join at any time.
-- Nothing is saved: hosting again restarts the dungeon.
+- Everyone starts in a lobby room. Press R when you are ready; the run starts when everyone is, or when the host presses Enter. The host picks the difficulty there with 1, 2 or 3.
+- Nothing is saved. The host can restart the run from the Esc menu (Restart run, clicked twice).
 
 ## Controls
 
@@ -30,8 +31,12 @@ One player clicks **Host a game**. Everyone else enters that player's IP address
 | Jump | Space |
 | Sprint | Left Shift |
 | Bow | Hold left mouse to draw, release to fire |
-| Firebolt / Mend / Blink | Q / E / F |
-| Free the mouse | Escape |
+| Firebolt / Blink | Q / F |
+| Mend | Hold E. You heal slowly but cannot move or attack, and take much more damage |
+| Ping | Middle mouse button |
+| Scoreboard | Hold Tab |
+| Ready up in the lobby | R |
+| Menu: volume, key bindings, restart | Escape |
 
 ## Dedicated server (optional)
 
