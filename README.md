@@ -32,7 +32,8 @@ One player clicks **Host a game**. Everyone else enters that player's IP address
 | Jump | Space |
 | Sprint | Left Shift |
 | Bow | Hold left mouse to draw, release to fire |
-| Firebolt / Blink | Q / F |
+| Rune | Q, then hold left mouse and trace the symbol shown in one stroke. Release, then left click to throw it. The closer your drawing, the stronger the blast; under 40% it fizzles. You cannot move while drawing. Right click cancels |
+| Blink | F |
 | Mend | Hold E. You heal slowly but cannot move or attack, and take much more damage |
 | Ping | Middle mouse button |
 | Scoreboard | Hold Tab |
