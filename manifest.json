@@ -1,5 +1,5 @@
 {
-    "version":  "2026-11-16 09:09 (7d1e60e)",
+    "version":  "2026-11-16 10:42 (a7bae98)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
                      "sha256":  "e43b848bce53a727f580e02c570cf288937dfca0cdfeb0105c9494cbb1219b0c",
@@ -23,12 +23,12 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/boot.config",
-                      "sha256":  "5d7f93d1cedcdf07e862c924ade6fd6481c4e5b976ab50f74766e3526b908232",
+                      "sha256":  "4456f8205f0858b02651604b55f046294104610a86c5ba9170605b0ee9e14fb8",
                       "size":  156
                   },
                   {
                       "path":  "DungeonDemo_Data/globalgamemanagers",
-                      "sha256":  "622c6d71b8b08415addd70febae99de9888fcfea1fdca34dae0639c5a02a6893",
+                      "sha256":  "44555f7b884691f9d5dcbecd2e5a4a3a5f11780996c3d6a7a8ce65b5146581a8",
                       "size":  190452
                   },
                   {
@@ -43,8 +43,8 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/level0",
-                      "sha256":  "960f25a5cd8e113de9d8e05730e367a6203d2b6e1c1be2bced52205c42eac18d",
-                      "size":  890948
+                      "sha256":  "cd3db04b07ed32e06be57e1792d68b1e2cd41d9d4f520a1eb984469b372c2ae9",
+                      "size":  988396
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/BlessedThrone.dll",
@@ -708,7 +708,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/resources.assets",
-                      "sha256":  "f8d77e5415666071318b05744511f94e237a9a2a25c55a846bdf40bdd4577111",
+                      "sha256":  "b0cbb09113b27b4f16adb2c9ff43f2d3b0f01bba405ad092519f011c02f0f657",
                       "size":  348824
                   },
                   {
@@ -738,7 +738,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/sharedassets0.assets",
-                      "sha256":  "bb3585f2691fc7afa4245e2b68c4ba51032d348b76e5a6edd99f45246a34f842",
+                      "sha256":  "2598ebfb86dbcd5559fa6f15c2ded2afcf8e9c06a6d701715be47a7cdab3206a",
                       "size":  1368908
                   },
                   {
