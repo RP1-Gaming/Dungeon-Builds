@@ -1,5 +1,5 @@
 {
-    "version":  "2026-11-17 22:26 (791fcd7)",
+    "version":  "2026-11-17 22:42 (b511dfa)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
                      "sha256":  "e43b848bce53a727f580e02c570cf288937dfca0cdfeb0105c9494cbb1219b0c",
@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/boot.config",
-                      "sha256":  "9192d92ee3e28c08a99b41a9daa10c7fa295bdab2333f366d58d0209c1a10b2a",
+                      "sha256":  "4fe5bde4eed16f9af846321e233455a4e10942f87156282043d1872bcc7be24c",
                       "size":  156
                   },
                   {
@@ -48,8 +48,8 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/BlessedThrone.dll",
-                      "sha256":  "ae2cce464f962eddeb4e328bb19dfde37ff5215e1fc4f7d23af92ab6d460caf7",
-                      "size":  223744
+                      "sha256":  "8218b2a4135f5a0ec0b4643f82d7acdbfa3e592eb283dbbceeb6693b4b461b30",
+                      "size":  224256
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/Mono.Security.dll",
