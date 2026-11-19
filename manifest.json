@@ -1,5 +1,5 @@
 {
-    "version":  "2026-11-18 21:26 (5ddc0cd)",
+    "version":  "2026-11-18 21:43 (5d454b7)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
                      "sha256":  "e43b848bce53a727f580e02c570cf288937dfca0cdfeb0105c9494cbb1219b0c",
@@ -23,12 +23,12 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/boot.config",
-                      "sha256":  "47b92dcc3a467ac8a28392b7c5770624c6b3c3cb31d934d04e437a19181b1c61",
+                      "sha256":  "fcec1faeea3789cbbd70a1e240e007b0a7391ed6a8bd082fd731f6b85adc05cf",
                       "size":  156
                   },
                   {
                       "path":  "DungeonDemo_Data/globalgamemanagers",
-                      "sha256":  "4536aef23664caaa5ad8803b6e6b25b65fe98255259d84aecf5501cf356ff263",
+                      "sha256":  "1f00ddc7553ccabd18fbdd7e27d972c7232843c882c680b73371f4a369dc3646",
                       "size":  190804
                   },
                   {
@@ -43,13 +43,13 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/level0",
-                      "sha256":  "c2da7c3c7fd54dfc9286d63de5dea7580bfea45d194f0ac2c7e5ae5cfab6cbeb",
+                      "sha256":  "1f3623034e221ef6c8c4d0d8569a01fec72456a8d33ed85e3a82c5e1b5cdb138",
                       "size":  1061916
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/BlessedThrone.dll",
-                      "sha256":  "854874aadf652f2bad835cea361645714ef1ddac4aa64833e0884e5b38d0f60e",
-                      "size":  242176
+                      "sha256":  "18d24f1fd31d440798df127d19219ecc25f46b2b6edf47148c59e0cd53a76c8c",
+                      "size":  246784
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/Mono.Security.dll",
@@ -738,7 +738,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/sharedassets0.assets",
-                      "sha256":  "2442f0756a8e5edbe1d70fb3af4fb8245a98cd806d01a634cbfa437b929273e3",
+                      "sha256":  "02f08e5a5c30ebaaca99883cc1d163fcdff23c82ea4d6a21b32218ecc88fe84b",
                       "size":  1371740
                   },
                   {
