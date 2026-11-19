@@ -1,5 +1,5 @@
 {
-    "version":  "2026-11-19 12:21 (0628486)",
+    "version":  "2026-11-19 12:25 (daecb3c)",
     "launcher":  {
                      "path":  "DungeonDemoLauncher.exe",
                      "sha256":  "e43b848bce53a727f580e02c570cf288937dfca0cdfeb0105c9494cbb1219b0c",
@@ -23,12 +23,12 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/boot.config",
-                      "sha256":  "669ab68aa42bb37902240480efcc662d0f21d3e9d75cccca392475b53c8d2f11",
+                      "sha256":  "1be1440779f0dae189fbd4ac904f4b2bfffb26b473da0d4af04ff2791b3a1940",
                       "size":  156
                   },
                   {
                       "path":  "DungeonDemo_Data/globalgamemanagers",
-                      "sha256":  "ee83f74deb698fa03cda41c6c236d82830d370ac35ccf7e109f87cdd14693690",
+                      "sha256":  "2536ff174ef36ee59ba0004262fcfa6874de1b4f164a885edb5890a55465f846",
                       "size":  190948
                   },
                   {
@@ -48,7 +48,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/Managed/BlessedThrone.dll",
-                      "sha256":  "3061528f790b2a183d409abea2952be50aebee98a05a29038f22adb088618b30",
+                      "sha256":  "de37a8dc9d202a8f5b39516fa7d36e451f3b7a87f984c5af3bbddc4118e2b769",
                       "size":  268288
                   },
                   {
@@ -708,7 +708,7 @@
                   },
                   {
                       "path":  "DungeonDemo_Data/resources.assets",
-                      "sha256":  "d34aff875fa3e0095116182e0f2acc907014405122f1de2a88b4b545489bd9eb",
+                      "sha256":  "d83e9e022cb8c510445092adfb6d42d9e6d157ba3850913eaaae8c53b9d55e62",
                       "size":  348824
                   },
                   {
